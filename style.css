@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100..900&display=swap');
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Light-gray);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+}
+
+.qrCard{
+    background-color: var(--White);
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.qrCard img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qrText{
+    padding: 15px 6px;
+    text-align: center;
+}
+
+.qrText h2{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.qrText p {
+    color: var(--Grayish-blue);
+    font-weight: 400;
+}
